@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	esc "../../../esclang"
+	esc "github.com/nakario/esclang"
 )
 
 var (
