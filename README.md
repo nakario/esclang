@@ -75,7 +75,7 @@ pp: primal pointer
 | -------- | --------- | ------------------- | ----------- |
 | \033[40m | black     | call                | call external module named `(c).esc` (*NOT IMPLEMENTED IN v0.1.0*) |
 | \033[41m | red       | increment ptr       | `ptr[pp]++` |
-| \033[42m | green     | jump if zero        | `goto (c)` |
+| \033[42m | green     | jump if zero        | `goto (c) if data[ptr[pp]]==0` |
 | \033[43m | yellow    | increment primalPtr | `pp++` |
 | \033[44m | blue      | decrement primalPtr | `pp--` |
 | \033[45m | magenta   | label               | set a label `(c)`. multiple labels with the same name are prohibited |
