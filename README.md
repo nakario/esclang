@@ -78,7 +78,7 @@ pp: primal pointer
 | \033[42m | green     | jump if zero        | `goto (c) if data[ptr[pp]]==0` |
 | \033[43m | yellow    | increment primalPtr | `pp++` |
 | \033[44m | blue      | decrement primalPtr | `pp--` |
-| \033[45m | magenta   | label               | set a label `(c)`. multiple labels with the same name are prohibited |
+| \033[45m | magenta   | (label)             | set a label `(c)`. labels are set during parsing, so they don't need to be executed. multiple labels with the same name are prohibited |
 | \033[46m | cyan      | decrement ptr       | `ptr[pp]--` |
 | \033[47m | white     | exit                | exit the module |
 | \033[48m | (ext)     | (error)             |  |
