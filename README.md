@@ -73,7 +73,7 @@ pp: primal pointer
 
 | sequence | color     | instruction         | description |
 | -------- | --------- | ------------------- | ----------- |
-| \033[40m | black     | call                | call external module named `(c)`.ext (*NOT IMPLEMENTED IN v0.1.0*) |
+| \033[40m | black     | call                | call external module named `(c).esc` (*NOT IMPLEMENTED IN v0.1.0*) |
 | \033[41m | red       | increment ptr       | `ptr[pp]++` |
 | \033[42m | green     | jump if zero        | `goto (c)` |
 | \033[43m | yellow    | increment primalPtr | `pp++` |
