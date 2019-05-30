@@ -26,7 +26,7 @@ docker run -it -v /path/to/dir:/code:ro esc /code/your_script.esc
 
 ESClang v0.1 uses SGR - SELECT GRAPHIC RENDITION control functions, especially functions which change display colors and background colors.
 
-The runtime treats a colored character as one or two instruction(s). If the background is colored, a `background` instruction is executed. Then, if the text is colored, a `foreground` instruction is executed. Instructions are as described below.
+The runtime treats a colored character as one or two instruction(s). If the background is colored, a `background` instruction is executed. Next, if the text is colored, a `foreground` instruction is executed. Instructions are described below.
 
 Texts not colored or default colored are treated as comments.
 
